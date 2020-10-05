@@ -14,5 +14,9 @@ public class ControladorInicio {
         log.debug("Entro a debug para mas detalle");
     return "Hola mundo con Spring Boot";
     }
+	
+	public void VerMensaje(){
+		log.info("Este es un mensaje de prueba para versionamiento de Git");
+	}
     
 }
